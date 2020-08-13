@@ -3,7 +3,7 @@ import Container from "../../components/Container";
 import Col from "../../components/Col";
 import Row from "../../components/Row";
 import Table from "../../components/Table";
-import API from "../utils/API";
+import API from "../../utils/API";
 
 function Search() {
     const [userSearch, setUserSearch] = useState();
