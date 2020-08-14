@@ -1,6 +1,28 @@
 import React from "react";
 
+const styles = {
+    tableHead: {
+        backgroundColor: "#0077b6"
+    },
+    tableHeaders: {
+        fontSize: "25px"
+    },
+    tableBody: {
+        overflowX: "auto",
+        justifyContent: "center",
+        textAlign: "center",
+        maxHeight: "500px",
+        overflow: "scroll"
+    },
+    tableData: {
+        paddingLeft: 15,
+        paddingRight: 15,
+        border: "1px solid #0077b6",
+        borderCollapse: "collapse"
 
+    },
+
+}
 
 function Table({ employeeList }) {
     console.log(employeeList);
