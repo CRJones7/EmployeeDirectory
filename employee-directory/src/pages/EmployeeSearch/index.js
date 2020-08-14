@@ -70,10 +70,10 @@ function Search() {
             <Container className="mt-3 px-5" >
                 <Row>
                     <Card>
-                        {!employeeList.length === 0 ? <h4>Waiting for Data to load</h4> :
-                            <Table
-                                employeeList={employeeList} />
-                        }
+                        {/* {!employeeList.length === 0 ? <h4>Waiting for Data to load</h4> : */}
+                        <Table
+                            employeeList={employeeList} />
+                        {/* } */}
 
 
                     </Card>

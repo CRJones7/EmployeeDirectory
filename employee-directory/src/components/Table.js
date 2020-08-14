@@ -58,7 +58,8 @@ function Table({ employeeList }) {
                     </tbody>
                 </table> :
                 <div>
-                    <p>Waiting for data to load</p></div>
+                    <p>Waiting for data to load</p>
+                </div>
             }
 
         </div>
