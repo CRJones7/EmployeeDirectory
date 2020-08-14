@@ -19,7 +19,7 @@ function Search() {
     }, [])
 
     function employeeSearch() {
-        console.log(employeeList.length)
+
         if (employeeList.length === 0) {
             API.search()
                 .then(res => res.data.results
@@ -37,10 +37,10 @@ function Search() {
     function filterEmployee(e, list) {
 
         const filteredList = list.filter(employee => employee.name.first.includes(e));
-        console.log(filteredList);
+
         if (filteredList.length > 0) {
             setEmployeeList(filteredList);
-            console.log(employeeList);
+
         }
 
     }
